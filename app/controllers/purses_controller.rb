@@ -3,7 +3,7 @@ class PursesController < ApplicationController
 
   # GET /purses
   def index
-    @purses = Purse.all
+    @purses = Purse.all.reverse
 
     render json: @purses
   end

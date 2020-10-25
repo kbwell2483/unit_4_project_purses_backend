@@ -17,4 +17,4 @@
 
 # puts 'Seeded Database'
 
-Purse.delete_all
+# Purse.delete_all
